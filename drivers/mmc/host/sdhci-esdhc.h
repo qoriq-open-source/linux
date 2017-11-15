@@ -53,6 +53,11 @@
 #define ESDHC_CLOCK_HCKEN		0x00000002
 #define ESDHC_CLOCK_IPGEN		0x00000001
 
+/* SD Clock Control Register */
+#define ESDHC_CLOCK_CONTROL		0x144
+#define ESDHC_LPBK_CLK_SEL		0x80000000
+#define ESDHC_CMD_CLK_CTL		0x00008000
+
 /* Host Controller Capabilities Register 2 */
 #define ESDHC_CAPABILITIES_1		0x114
 
